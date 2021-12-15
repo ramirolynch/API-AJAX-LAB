@@ -1,0 +1,110 @@
+body {
+    margin:0;
+    font-family: 'Lilita One', cursive;
+    font-size:1.5em;
+    background-color: purple;
+    display:flex;
+    flex-direction: column;  
+    justify-content: center;
+    
+}
+button {
+    font-family: 'Lilita One', cursive;
+    border-radius:5px;
+    border:solid 5px silver ;
+}
+
+ul {
+    list-style-type:none;
+}
+
+main {
+    margin-left: 1em;
+    margin-right:1em;
+}
+
+h1 {
+    display:inline;
+    border-radius: 0.5em;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.5em;
+    padding-left:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid 5px silver ;
+}
+
+ul.card > li > img {
+    border-radius: 0.5em;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+input {
+    border-radius:5px;
+    border:solid 5px silver;
+}
+
+input[type=text]{
+    margin-bottom:0.4em;
+}
+
+input::placeholder {
+
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+  
+}
+
+@media screen and (min-width: 768px)  { 
+
+    ul.card {
+        width: 100%;
+    }
+
+    main {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+    }
+
+    body {
+        margin:0;
+        font-family: 'Lilita One', cursive;
+        font-size:1.5em;
+        background-color: purple;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    button {
+        font-family: 'Lilita One', cursive;
+    }
+
+ }
